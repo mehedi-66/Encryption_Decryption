@@ -1,0 +1,34 @@
+.NavBar{
+    border-bottom: 1px solid rgb(226, 226, 226);
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+}
+.NavButton{
+    width: 150px;
+    border:none;
+    box-sizing: border-box;
+    margin: 1px 1px 1px 1px;
+   background-color: rgb(230, 230, 230);
+   color: rgb(0, 0, 0);
+   font-weight: bold;
+   font-size: 16px;
+   letter-spacing: 1px;
+
+}
+
+.activeButton{
+
+    width: 150px;
+    border:none;
+    box-sizing: border-box;
+    margin: 1px 1px 1px 1px;
+   background-color: rgb(230, 230, 230);
+   color: rgb(0, 0, 0);
+   font-weight: bold;
+   font-size: 16px;
+   letter-spacing: 1px;
+    background-color: royalblue;
+    color: white;
+}

@@ -1,0 +1,51 @@
+.headingCaesar{
+    text-align: center;
+
+}
+.headingCaesar span{
+    display: inline-block;
+    height: 20px;
+    margin: 15px 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.headingCaesar input{
+    padding: 3px;
+
+}
+.warrning{
+    color: red;
+}
+.EnDePartCaesar{
+    text-align: center;
+    display: flex;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.video1{
+    border: 1px solid blue;
+    width: 433px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 300px;
+
+}
+.video1 iframe  {
+    width: 432px;
+    height: 300px;
+}
+@media screen and (max-width: 760px) {
+   .caesarEncrypt{
+      text-align: center;
+       width: 100%;
+       height: 350px;
+   }
+   .caesarDecrypt{
+    width: 100%;
+    height: 350px;
+    text-align: center;
+   }
+   
+}
